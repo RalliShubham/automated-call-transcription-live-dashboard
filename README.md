@@ -1,4 +1,4 @@
-# autoamted-call-transcription-live-dashboard
+# Autoamted-Call-Transcription-Live-Dashboard
 This project manages call logs, their associated files, transcribes them and pushes them into a pipeline for sentiment analysis, summarization, caller identification, call tagging and agent analysis, where all the data is logged in the backend and can be seen on a Looker Dashboard updating live.
 
 ## Overview
@@ -16,6 +16,8 @@ This project aims to improve the efficiency of customer support operations by au
 - Outcome Prediction: The system uses machine learning models to predict the likelihood of successful issue resolution and customer satisfaction based on historical data from previous calls.
 
 - Real-time Analytics with Looker: The results from sentiment analysis, tagging, and predictions are displayed on a dynamic Looker dashboard. This dashboard provides real-time insights into customer service operations, helping managers make data-driven decisions.
+
+- Sends a live message via incoming webhooks to slack too!
 
 ## Technologies Used
 - Python: Core language for scraping, data processing, and machine learning model development.
