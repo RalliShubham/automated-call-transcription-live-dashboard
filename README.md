@@ -1,7 +1,7 @@
 # Automated-Call-Transcription-Live-Dashboard
 This project manages call logs, their associated files, transcribes them and pushes them into a pipeline for sentiment analysis, summarization, caller identification, call tagging, agent analysis, and sending key details for QA on slack where all the data is logged in the backend and can be seen on a Looker Dashboard updating live.
 
-The Live Dashboard can be seen at: https://lookerstudio.google.com/reporting/c3330499-4e5c-46a7-9cae-3d18420ae3b5
+The Live Dashboard can be seen at: https://lookerstudio.google.com/reporting/ae47276d-3998-46d1-98d2-8c8c06536927
 ## Overview
 The Automated Call Log Analysis System is designed to automate the extraction, transcription, and analysis of call log data for customer support centers. The system uses Python and Selenium for web scraping, integrates speech-to-text APIs for call transcription, and applies machine learning techniques to predict call outcomes and analyze sentiment. The final results are visualized on a live Looker dashboard, providing real-time insights into customer interactions.
 
